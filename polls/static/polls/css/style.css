@@ -1,0 +1,378 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(42, 27, 61, 0.82);
+}
+
+.header h1{
+    color: white;    <!-- #a4b3b6 -->
+    display: flex;
+    margin: auto;
+}
+
+.header-links{
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+}
+
+.header-links a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 16px 0 16px 0;
+}
+
+.host{
+    width:500px;
+}
+
+.header-links a:hover{
+    color: #EFA94A;
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+.main-bg{
+    background-color: #a4b3b6;
+    margin: 0 auto;
+    width: 70%;
+    min-height: 628px;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.trigger-burger-menu:hover ~ .burger-menu{
+    display: block;
+    position: fixed;
+    top: 50px;
+    margin-left: 230px;
+    text-align: center;
+}
+
+.burger-menu:hover{
+    display: block;
+    position: fixed;
+    top: 50px;
+    margin-left: 230px;
+    text-align: center;
+}
+
+.burger-menu a{
+    padding: 10px 0 10px 5px;
+    background-color: rgba(42, 27, 61, 0.82);
+
+}
+
+.block-profile{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 40%;
+    border-radius: 30px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.block-profile > div > h1{
+    margin: 20px 0 20px 0;
+}
+
+.block-profile > div > h2{
+    margin: 20px 0 10px 0;
+}
+
+.block-profile > div > p{
+    margin: 10px 0 10px 0;
+}
+
+.block-profile > div > img{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.block-profile > a{
+    background-color: #FF0000;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin: 10px 0 15px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.block-profile > a:hover{
+    background-color: #8B0000;
+}
+
+.main-del-ac{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.main-del-ac > form{
+    margin-top: 10px;
+} 
+
+.main-del-ac > form > button{
+    border: none;
+    background-color: #FF0000;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin: 10px 0 15px 0;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.main-del-ac > form > button:hover{
+    background-color: #8B0000;
+}
+
+.block-main{
+    display: flex;
+    align-items: start;
+    background-color: antiquewhite;
+    width: 40%;
+    border-radius: 30px;
+    margin-top: 40px;
+    flex-direction: column;
+    
+}
+
+.block-main h1{
+    padding: 10px 0 10px 0;
+    
+
+}
+
+.block-login{
+    padding: 10px 0 10px 0;
+    
+}
+
+.block-login-reg{
+    display: flex;
+    margin: 10px 0 10px 0;
+    
+}
+
+.block-login-reg button{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.block-login-reg button:hover{
+    background-color: green;
+}
+
+.block-login-reg a{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+
+}
+
+.block-login-reg a:hover{
+    background-color: green;
+}
+
+.block-register{
+    display: flex;
+    align-items: start;
+    background-color: antiquewhite;
+    width: 60%;
+    padding: 10px 20px 10px 50px;
+    border-radius: 30px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.block-register form a{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.block-register form a:hover{
+    background-color: green;
+}
+
+.block-register form button{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.block-register form button:hover{
+    background-color: green;
+}
+
+.block-register-but{
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.block-index{
+    display: flex;
+    align-items: start;
+    background-color: antiquewhite;
+    width: 60%;
+    padding: 10px 20px 10px 50px;
+    border-radius: 30px;
+    
+    flex-direction: column;
+}
+
+.block-index-a{
+    text-decoration: none;
+    color: black;
+}
+
+.block-index-a:hover{
+    color: red;    
+}
+
+.block-create-qs{
+    display: flex;
+    align-items: start;
+    background-color: antiquewhite;
+    width: 60%;
+    padding: 10px 20px 10px 50px;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.block-create-qs-but{
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.block-create-qs-but button{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.block-create-qs-but button:hover{
+    background-color: green;
+}
+
+.block-create-qs-but a{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.block-create-qs-but a:hover{
+    background-color: green;
+}
+
+.block-red{
+    display: flex;
+    align-items: start;
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 10px 20px 10px 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.block-red button{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+.block-red button:hover{
+    background-color: green;    
+}
+
+.block-detail{
+    display: flex;
+    align-items: start;
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 10px 20px 10px 50px;
+    border-radius: 30px;
+    
+    flex-direction: column;
+}
+
+.block-detail img{
+    width: 100px;
+}
+
+
+.block-detail-but a{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.block-detail-but a:hover{
+    background-color: green;    
+}
+
+.block-detail-but button{
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 0;
+    margin-left: 40%;
+}
+
+.block-detail-but{
+    width: 400px;
+}
+
+.block-detail-but button:hover{
+    background-color: green;    
+}
