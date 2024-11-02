@@ -1,3 +1,3 @@
-python manage.py migrate
-python manage.py makemigrations
+python manage.py migrate <br>
+python manage.py makemigrations <br>
 pip install pillow
